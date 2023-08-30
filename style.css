@@ -1,0 +1,22 @@
+/* Properties which are inherited by the child element*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body{
+  font-family: 'Poppins', sans-serif;
+  color: rgb(0, 125, 125);
+}
+
+
+/* Properties which are not inherited by the child element */
+body :not(p){
+  font-size: 100px;
+}
+#html{
+  font-variant: inherit;
+}
+#css{
+  font-weight: bolder;
+
+}
+#js{
+  font-style: italic;
+}
